@@ -19,7 +19,7 @@ function App() {
   };
 
 
-  const [page, setPage] = useState(1); // Adicione essa linha para declarar e inicializar a variável page
+  const [page, setPage] = useState(1); 
   const favorites = useSelector((state) => state.favorites);
   const dispatch = useDispatch();
   const handleToggleFavorite = (character) => {

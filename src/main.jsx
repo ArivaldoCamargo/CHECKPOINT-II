@@ -1,9 +1,6 @@
 
 import ReactDOM from 'react-dom/client';
 
-
-
-
 import React from "react";
 import store from "./redux/store";
 import App from "./App";
